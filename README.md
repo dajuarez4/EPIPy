@@ -10,8 +10,16 @@ This is an interactive Pygame-based simulation where particles interact with oth
 
 ```bash
 git clone https://github.com/dajuarez4/EPIPy
-2. Set up a conda environment including the following libraries:
-Pygame
-Pandas
-Matplotlib
-3. Run the main.py code and enjoy the magic.
+
+### 2. Set up a conda environment including the following libraries:
+- Pygame  
+- Pandas  
+- Matplotlib  
+
+You can do this by running:
+
+```bash
+conda create -n epipy_env python=3.11 -y
+conda activate epipy_env
+pip install pygame pandas matplotlib
+
