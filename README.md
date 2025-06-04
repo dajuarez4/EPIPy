@@ -8,7 +8,7 @@ This is an interactive Pygame-based simulation where particles interact with oth
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/dajuarez4/EPIPy
+git clone https://github.com/dajuarez4/EPIPy```
 
 ### 2. Set up a conda environment including the following libraries:
 -Pygame
