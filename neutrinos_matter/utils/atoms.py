@@ -4,6 +4,7 @@ from utils.config import x_detec, y_detect,prob_atom_type1, prob_atom_type2,prob
 class Atom:
     def __init__(self, x, y, atom_type):
         self.rect = pygame.Rect(x, y, x_detec, y_detect) #size detectors
+        self.atom_type = atom_type
         self.type = atom_type
         self.color = self.get_color()
         self.interaction_prob = self.get_interaction_probability()

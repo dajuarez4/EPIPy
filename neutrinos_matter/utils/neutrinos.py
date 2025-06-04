@@ -5,7 +5,7 @@ class Neutrino:
     def __init__(self):
         self.x = 0 #left side generator
         self.y = random.randint(100, 600) # randomly
-        self.radius = r
+        self.radius = r #radius neutrinos
         self.color = (0, 255, 255) # color
         self.vx = vx # velocity 
 
